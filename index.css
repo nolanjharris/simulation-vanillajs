@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.righteous {
+    font-family: 'Righteous', cursive;
+    font-size: 1.4em;
+    color: #424249;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    background-color: #424249;
+    color: #fff;
+}
+
+#title {
+    width: 50%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* font-size: 2.5em; */
+    margin-left: 30px;
+}
+
+#pageTitle {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+#title img {
+    max-height: 80px;
+    margin-right: 20px;
+}
+
+#total {
+    font-size: 1.7em;
+    margin-right: 30px;
+}
+
+main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 40px; */
+}
+
+#mainContent {
+    margin-top: 40px;
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#expenses {
+    height: fit-content;
+    width: 41%;
+    padding: 15px 25px;
+    background-color: #EFE8E1;
+    border-radius: 5px;
+}
+
+#expenses h2 {
+    margin-bottom: 20px;
+}
+
+.expenseItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3em;
+    color: #424249;
+    margin: 12px 0;
+}
+
+.namePrice {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.expenseItem img {
+    max-height: 30px;
+}
+
+#addBill {
+    height: fit-content;
+    width: 41%;
+    padding: 15px 25px;
+    background-color: #54D2E5;
+    border-radius: 5px;
+}
+
+.billInput {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.billInput input {
+    height: 28px;
+    width: 65%;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.billInput h5 {
+    font-size: 1.3em;
+    color: #424249;
+}
+
+#addBill button {
+    width: 100%;
+    height: 38px;
+    margin: 10px 0;
+    color: #fff;
+    background-color: #424249;
+    border: none;
+    border-radius: 5px;
+}
